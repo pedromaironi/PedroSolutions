@@ -1,0 +1,27 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/primaryTextColor</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="EditTextWhite">
+        <item name="colorControlNormal">@color/whiteColor</item>
+        <item name="android:textSize">@dimen/editTextSizeLogin</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="RaisedButtonDark" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="colorButtonNormal">@color/primaryNormal</item>
+        <item name="colorControlHighlight">@color/primaryHighLight</item>
+        <item name="colorControlActivated">@color/primaryActive</item>
+    </style>
+
+
+</resources>
